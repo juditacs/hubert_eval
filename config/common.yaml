@@ -1,0 +1,19 @@
+experiment_dir: ${WORKDIR}/exps/
+use_cache: true
+
+mask_positions: []
+dropout: 0.2
+exclude_short_sentences: false
+bow: false
+
+mlp_layers: [50]
+mlp_nonlinearity: ReLU
+
+epochs: 100 
+batch_size: 128
+optimizer: Adam
+early_stopping_strict: true
+
+sort_data_by_length: false
+shuffle_batches: false
+save_metric: dev_acc
