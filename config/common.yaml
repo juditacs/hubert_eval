@@ -1,4 +1,4 @@
-experiment_dir: ${WORKDIR}/exps/
+experiment_dir: ${WORKDIR}/exps_new_models
 use_cache: true
 
 mask_positions: []
